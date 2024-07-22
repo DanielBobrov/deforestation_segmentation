@@ -44,7 +44,7 @@ def process_directory(input_dir, output_dir):
 
 
 # Обработка всех стадий и наборов данных
-base_dir = 'dataset'
+base_dir = 'datasets/dataset'
 for dataset in ['train', 'val']:
     for stage in range(1, 7):
         input_dir = os.path.join(base_dir, dataset, f'stage_{stage}')
